@@ -175,204 +175,155 @@ body{
     padding-bottom:80px;
     
 }
-/* блок  */
-.real-town-number{
-    border: solid 1px #83B3D3;
-    background: #83B3D3;
-    width:400px;
-    height: 384px;
-    color:#FFFFFF;
-    margin:0;
-}
-/* содержимое */
-.real{
-    font-size:24px;
-    line-height:28px;
-    font-weight:700;
-    text-transform: uppercase;
-    margin:0;
-    padding-top: 97px;
-    text-align:center;
-}
 
-.number-one{
-    font-size:18px;
-    line-height:21px;
-    text-align:center;
-    margin:0;
-    padding-top: 30px;
-}
-
-
-.sedona-for-life{
-    font-size:18px;
-    line-height:21px;
-    text-align:center;
-    margin:0px;
-    padding-top:30px;
-    padding-bottom:87px;
-}
-/* фото */
-.real-town-image{
-    margin:0;
-}
-/* флекс контейнер */
-.real-town{
-    display:flex;
-    justify-content:center;
-
-}
-  
-/* блок */
-.adventure-item{
-    border: solid 1px#83B3D31F;
-    background-color:#83B3D31F;
-    width:400px;
-    height:384px;
-    text-align: center;
-    list-style-type:none;
-}
-/* блок */
-.adventure-item-white{
-    border: solid 1px #FFFFFF;
-    background-color: #FFFFFF;
-    width:400px;
-    height:384px;
-    text-align: center;
-    list-style-type:none;
-} 
-/* содержимое */
-.adventure-item-white h2{
-  text-transform:uppercase;
-} 
-
-.adventure-item p{
-    font-size:18px; 
-    line-height:21px;
-    margin:0;
-    padding-top:20px;
-}
-.adventure-item h2{
-    font-size:24px;
-    line-height:28px;
-    text-transform:uppercase;
-    margin:0;
-    padding-top:23px;
-}
-.home{
-    margin:0;
-    padding-top:89px;
-}
-.eat{
-    margin:0;
-    padding-top:91px;
-}
-.present{
-    margin:0;
-    padding-top:85px;
-} 
-.adventure-list{
-    margin:0;
-    padding:0;
-}
-
-/* флекс контейнер */
-.adventure-list{
-    display:flex;
-    justify-content: center;
-}
-
-/* блок */
-.bridge-diablo-number{
-    border:solid 1px;
-    width:400px;
-    height:384px;
-    text-align:center;
-    color: #FFFFFF;
-    background-color: #83B3D3;
-}
-
-
-.bridge-diablo-image{
-    margin: 0;
-}
-
-.bridge{
-    font-size: 24px;
-    line-height: 28px;
-    font-weight:700;
-    text-transform:uppercase;
-    margin:0;
-    padding-top:98px;
-}
-
-.number-two{
-    font-size:18px;
-    line-height:21px;
-    text-align:center;
-    margin:0;
-    padding-top: 29px;
-}
-/* флекс контейнер */
-.bridge-diablo{
-    display: flex;
-    margin-top:0;
-    justify-content: center;
-}
+/* блоки с номером,
+ блоки с рисунком*/
+ .border-image,
+ .border-number{
+     border: solid 1px #83B3D3;
+     background: #83B3D3;
+     width:400px;
+     height: 384px;
+     color:#FFFFFF;
+     text-align: center;
+     
+ }
+ /* содержимое блоков с номером */
  
-/* блок */
-.advantages-item{
-    border:solid 1px  #83B3D31F ;
-    background-color: #83B3D31F;
-    width:400px;
-    height:384px;
-    text-align:center;
-    color: #000000;
-    list-style-type: none;
-}
-/* блок */
-.advantages-item-four{
-    border:solid 1px  #83B3D31F ;
-    background-color: #83B3D333;
-    width:400px;
-    height:384px;
-    text-align:center;
-    color: #000000;
-    list-style-type: none;
-} 
-
-/* содержимое */
-
-.uppercase{
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 700;
-    text-transform:uppercase;
-    margin:0;
-    padding-top:98px;
-}
-
-.number{
-margin:0;
-padding-top:29px;
-}
-.description{
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 400;
-    margin:0;
-    padding-top:30px;
-}
-
-.advantages-list{
-    margin:0;
-    padding:0;
-}
-/* флекс контейнер */
-.advantages-list{
-    display: flex;
-    justify-content: center;
-}
+ .uppercase{
+     font-size: 24px;
+     line-height: 28px;
+     font-weight:700;
+     color:#FFFFFF;
+     text-transform: uppercase;
+     margin:0;
+     padding:0;
+ 
+     padding-top: 97px;
+     margin-bottom:30px;
+ }
+ .number{
+     font-size:18px;
+     line-height:21px;
+     font-weight:400;
+     color:#FFFFFF;
+     margin:0;
+     padding:0;
+     
+     margin-bottom: 30px;
+ }
+ 
+ .benefits{
+     font-size:18px;
+     line-height:21px;
+     font-weight:400;
+     color:#FFFFFF;
+     margin:0;
+     padding:0;
+ 
+     margin-bottom:87px;
+ }
+ .block-5,
+ .block-3,
+ .block-eat{
+     background: #83B3D31F;
+     border-color:#83B3D31F;
+ }
+ .block-present,
+ .block-4,
+ .block-home{
+     background: #83B3D333;
+     border-color:#83B3D333 ;
+ }
+ 
+ 
+ .black{
+     color:#333333;
+ }
+ 
+ /* содержимое блоков с рисунком */
+ .title{
+     font-size:24px;
+     line-height:28px;
+     font-weight:700;
+     color:#333333;
+     text-transform: uppercase;
+     margin:0;
+     padding:0;
+     margin-bottom:20px;
+ }
+ .description{
+     font-size:18px;
+     line-height:21px;
+     font-weight:400;
+     color:#333333;
+     margin:0;
+     padding:0; 
+     margin-bottom:79px;
+ }
+ .home{
+     margin:0;
+     padding:0;
+     margin-top:89px;
+     margin-bottom:23px;
+ }
+ .eat{
+     margin:0;
+     padding:0;
+     margin-top:91px;
+     margin-bottom:20px;
+ }
+ .present{
+     margin:0;
+     padding:0;
+     margin-top:85px;
+     margin-bottom:23px;  
+ }
+ .town-image{
+     grid-area:town-image;
+ }
+ .block-home{
+     grid-area:block-home ;
+ }
+ .block-eat{
+     grid-area: block-eat;
+ }
+ .block-present{
+    grid-area:block-present;
+ }
+ .bridge-diablo-image{
+     grid-area:bridge-diablo-image;
+ }
+ .block-1{
+     grid-area: block-1;
+ }
+ .block-2{
+     grid-area: block-2;
+ }
+ .block-3{
+     grid-area: block-3;
+ }
+ .block-4{
+     grid-area: block-4;
+ }
+ .block-5{
+     grid-area: block-5;
+ }
+ 
+ .blocks{
+     display:grid;
+     width:1200px;
+     margin-right: auto;
+     margin-left: auto;
+     grid-template-areas:"block-1 town-image town-image"
+ 
+                         "block-home block-eat block-present"
+ 
+                         "bridge-diablo-image bridge-diablo-image block-2"
+ 
+                         "block-3 block-4 block-5";
+ 
+ }
 
 /* блок поиска гостиницы */
 .interest-hostel{

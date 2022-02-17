@@ -78,13 +78,24 @@
 
 
 
-        
       <!--фильтр выбора гостиницы-->
       <section class="filter-list">
+        <h1 class="sedona-hostel">Гостиницы Седоны</h1>
+          <!--хлебные крошки-->
+          <section class="breadcrumbs">
+    
+            <a class="breadcrumbs-link" href="index.html"><img class="bread" src="images/catalog/breade.svg">
+              <span class="visually-hidden">на главную</span></a>
+              <span class="branch"><img class="branch-image" src="images/brench.svg"></span>
+    
+            <a class="breadcrumbs-item" href="">
+              Гостиницы
+            </a>
+          </section> 
         <!-- <h2 class="visually-hidden">параметры гостиницы</h2> -->
         <form class="filter-parameter" action="https://echo.htmlacademy.ru/" method="get">
           <!--поле инфраструктуры-->
-          <fieldset class="filter-parameter-choice">
+          <fieldset class="filter-parameter-choice infra">
             <legend class="filter-parameter-title">Инфраструктура:</legend>
             <!--список инфраструктуры-->
             <ul class="filter-list-item">
@@ -103,7 +114,7 @@
             </ul>
           </fieldset>
           <!--поле тип жилья-->
-          <fieldset class="filter-parameter-choice">
+          <fieldset class="filter-parameter-choice motel">
             <legend class="filter-parameter-title">Тип жилья:</legend>
 
             <ul class="filter-list-item">
@@ -124,17 +135,18 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="filter-parameter-choice">
+          <fieldset class="filter-parameter-choice cost-choice">
             <legend class="filter-parameter-title">Стоимость,P:</legend>
           </fieldset>
 
           <!--кнопки формы-->
-          <section class="button-header">
-            <button class="button-apply" type="submit">применить</button>
+          <section class="button-header button">
+            <button class="button-apply">применить</button>
             <button class="button-reset">сбросить</button>
             </section>
         </form>
       </section>
+
    
     </body>
     </html>

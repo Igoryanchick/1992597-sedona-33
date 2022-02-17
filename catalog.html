@@ -60,24 +60,24 @@
   <!--главное содержимое-->
   <main class="main-inner">
 
-    <header class="inner-header">
-      <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      <!--хлебные крошки-->
-      <section class="breadcrumbs">
-
-        <a class="breadcrumbs-link" href="index.html"><img class="bread" src="images/catalog/breade.svg">
-          <span class="visually-hidden">на главную</span></a>
-
-        <a class="breadcrumbs-item" href="">
-          Гостиницы
-        </a>
-      </section>
       <!--фильтр выбора гостиницы-->
       <section class="filter-list">
+        <h1 class="sedona-hostel">Гостиницы Седоны</h1>
+          <!--хлебные крошки-->
+          <section class="breadcrumbs">
+    
+            <a class="breadcrumbs-link" href="index.html"><img class="bread" src="images/catalog/breade.svg">
+              <span class="visually-hidden">на главную</span></a>
+              <span class="branch"><img class="branch-image" src="images/brench.svg"></span>
+    
+            <a class="breadcrumbs-item" href="">
+              Гостиницы
+            </a>
+          </section> 
         <!-- <h2 class="visually-hidden">параметры гостиницы</h2> -->
         <form class="filter-parameter" action="https://echo.htmlacademy.ru/" method="get">
           <!--поле инфраструктуры-->
-          <fieldset class="filter-parameter-choice">
+          <fieldset class="filter-parameter-choice infra">
             <legend class="filter-parameter-title">Инфраструктура:</legend>
             <!--список инфраструктуры-->
             <ul class="filter-list-item">
@@ -96,7 +96,7 @@
             </ul>
           </fieldset>
           <!--поле тип жилья-->
-          <fieldset class="filter-parameter-choice">
+          <fieldset class="filter-parameter-choice motel">
             <legend class="filter-parameter-title">Тип жилья:</legend>
 
             <ul class="filter-list-item">
@@ -117,19 +117,17 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="filter-parameter-choice">
+          <fieldset class="filter-parameter-choice cost-choice">
             <legend class="filter-parameter-title">Стоимость,P:</legend>
           </fieldset>
 
           <!--кнопки формы-->
           <section class="button-header">
-            <p class="button-apply"><input type="submit" name="apply" value="применить"></p>
-            <p class="button-reset"><input type="submit" name="reset" value="сбросить"></p>
+            <button class="button-apply">применить</button>
+            <button class="button-reset">сбросить</button>
             </section>
         </form>
       </section>
-
-    </header>
 
     <section class="hostel-choice">
       <p class="hostel-choice-numder">найдено гостиниц:38</p>

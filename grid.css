@@ -14,6 +14,16 @@
     src:url("fonts/ptsans-700.woff2");
     font-display:swap;
 }
+.visually-hidden{
+    position:absolute;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    border:0;
+    clip:rect(0 0 0 0);
+    overflow:hidden;
+}
 
 
 body{
@@ -26,6 +36,10 @@ body{
    padding:0; 
    
 }
+
+
+
+ 
 
 /* блоки с номером,
  блоки с рисунком*/
@@ -177,15 +191,39 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* формы */
+
+
+/* фон фильтра каталога */
+
 .filter-list{
     background: url(images/catalog/catalog.jpg) no-repeat;
     width:1200px;
     height:408px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .filter-list-item{
     list-style-type:none;
+    
 }
+.filter-parameter{
+    width:1200px;
+    display:flex;
+    
+   
+}
+
 .filter-parameter-title{
     font-size: 20px;
     line-height: 26px;
@@ -193,8 +231,7 @@ body{
     color:#FFFFFF;
     margin:0;
     padding:0;
-
-
+    margin-bottom:30px;
 }
 .filter-list-parameter{
     display:block;
@@ -203,19 +240,103 @@ body{
     font-weight: 400;
     color:#FFFFFF;
     margin:0;
-    padding:0; 
+    padding:0;
+    margin-bottom:13px;
+
 }
+.filter-list-parameter:nth-child(3){
+    margin-bottom:0;
+}
+
 .filter-list-item{
     margin:0;
     padding:0;
 }
 .button-apply{
+    display:block;
     border:1px solid #83B3D3;
     background: #83B3D3;
+    width:160px;
+    height:48;
+    padding:10px;
 
+    font-size: 16px;
+    line-height:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#FFFFFF;
+    margin-bottom:20px;
+}
+.button-reset{
+    background: none;
+    border:none;
+    font-size:18px;
+    line-height:23px;
+    font-weight:400;
+    color:#FFFFFF;
+    margin:0;
+    padding:0; 
+}
+.filter-parameter-choice{
+    border:none;
+    margin:0;
+    padding:0;
 }
 
+/* .title */
 
+.sedona-hostel{
+    font-size: 60px;
+    line-height:77px;
+    font-weight:700;
+    color:#FFFFFF;
+    padding:0;
+    margin:0;
+    
+    padding-top: 35px;
+    
+    padding-left:71px;
+    
+}
+.infra{
+    margin-left: 70px;
+    margin-right:67px;
+    
+}
+.motel{
+    margin-right:216px;
+}
+
+.cost-choice{
+    margin-right:150px;
+}
+.button{
+    padding-top:50px;
+    text-align: center;
+
+    
+}
+.breadcrumbs{
+    margin:0;
+    padding:0;
+    margin-bottom: 45px;
+    
+}
+.breadcrumbs a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#FFFFFF;
+
+}
+.breadcrumbs-link{
+    margin-left: 73px;
+    margin-right: 11px;
+}
+.branch-image{
+    margin-right: 10px;
+}
 
 
 
